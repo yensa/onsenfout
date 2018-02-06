@@ -66,7 +66,7 @@
                                         echo "<td>" . $row['image'] . "</td>";
                                         echo "<td>";
                                             echo "<a href='updatecont.php?ID=". $row['IDcontact'] ."' title='maj' data-toggle='tooltip'><span class='glyphicon glyphicon-pencil'></span></a>";
-                                            echo "<a href='delete.php?ID=". $row['IDcontact'] ."' title='supprimer' data-toggle='tooltip'><span class='glyphicon glyphicon-trash'></span></a>";
+                                            echo "<a href='deletecont   .php?ID=". $row['IDcontact'] ."' title='supprimer' data-toggle='tooltip'><span class='glyphicon glyphicon-trash'></span></a>";
                                         echo "</td>";
                                     echo "</tr>";
                                 }
